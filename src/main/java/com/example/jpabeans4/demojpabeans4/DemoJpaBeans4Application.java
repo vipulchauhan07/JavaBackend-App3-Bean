@@ -18,13 +18,17 @@ public class DemoJpaBeans4Application {
 
 		ctx.refresh();
 
-		HelloWorld obj = ctx.getBean(HelloWorld.class);
+		HelloWorld obj1 = ctx.getBean(HelloWorld.class);
 
-		obj.setData("Bean");
+		HelloWorld obj2 = ctx.getBean(HelloWorld.class);
 
-		obj.setMsg("Test Bean!");
+		obj1.setData("Bean");
 
-		System.out.println(obj);
+		obj1.setMsg("Test Bean!");
+
+		System.out.println(obj1);
+
+		System.out.println(obj2);
 	}
 
 }

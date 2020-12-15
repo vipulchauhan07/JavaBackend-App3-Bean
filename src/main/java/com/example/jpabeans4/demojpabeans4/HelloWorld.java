@@ -22,8 +22,8 @@ public class HelloWorld {
         this.data = data;
     }
 
-    @Override
-    public String toString() {
-        return this.getMsg() + " The data is " + this.getData() ;
-    }
+//    @Override
+//    public String toString() {
+//        return this.getMsg() + " The data is " + this.getData() ;
+//    }
 }
