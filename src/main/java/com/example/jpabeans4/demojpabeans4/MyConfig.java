@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Scope;
 public class MyConfig {
 
     @Bean
-    @Scope("prototype")
     public HelloWorld getHelloWorldObject() {
         return new HelloWorld();
     }

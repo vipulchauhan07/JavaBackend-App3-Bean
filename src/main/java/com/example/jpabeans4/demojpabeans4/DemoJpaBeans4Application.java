@@ -20,15 +20,10 @@ public class DemoJpaBeans4Application {
 
 		HelloWorld obj1 = ctx.getBean(HelloWorld.class);
 
-		HelloWorld obj2 = ctx.getBean(HelloWorld.class);
-
 		obj1.setData("Bean");
 
 		obj1.setMsg("Test Bean!");
 
-		System.out.println(obj1);
-
-		System.out.println(obj2);
 	}
 
 }
